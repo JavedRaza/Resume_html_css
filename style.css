@@ -29,7 +29,7 @@ body{
 }
 .resume .resume_left{
 	width: 340px;
-	background-color: #0bb5f4;
+	background-color:#330000 ;
 }
 .resume .resume_left .resume_profile{
 	width: 100%;
@@ -44,7 +44,7 @@ body{
   padding: 0 25px;
 }
 .resume .title{
-	margin-bottom: 20px
+	margin-bottom: 20px;
 }
 .resume .resume_left .bold{
 	color: #fff;
@@ -91,4 +91,93 @@ body{
 
 .resume .resume_left ul li .data {
   color: #b1eaff;
+}
+.resume .resume_left .resume_skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #b1eaff;
+  justify-content: space-between;
+  align-items: center;
+}
+.resume .resume_left .resume_skills ul li .interest_name {
+  width: 25%;
+}
+
+.resume .resume_left .resume_interest ul li .interest_name {
+  width: 25%;
+  color: #b1eaff;
+}
+
+
+.resume .resume_left .resume_skills ul li .skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+}
+
+.resume .resume_left .resume_mar{
+	margin-left: 25px;
+
+}
+.resume .resume_right {
+	width: 520px;
+	background: #fff;
+	padding: 25px;
+}
+.resume .resume_right .bold{
+	color: #0bb5f4;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
+}
+
+.resume .resume_right ..resume_education .grade{
+	margin-left: : 0px;
+	display: inline;
 }
