@@ -58,7 +58,7 @@ body{
 }
 .resume .resume_left .resume_item:last-child,
 .resume .resume_right .resume_item:last-child {
-  border-bottom: 0px;
+  border-bottom: 20px;
 }
 
 .resume .resume_left ul li {
@@ -136,6 +136,13 @@ body{
   overflow: hidden;
 }
 
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_achiev ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+
 .resume .resume_right ul li {
   position: relative;
 }
@@ -177,7 +184,35 @@ body{
   background: #0bb5f4;
 }
 
-.resume .resume_right ..resume_education .grade{
+.resume .resume_right .resume_education .grade{
 	margin-left: : 0px;
 	display: inline;
 }
+
+.resume .resume_right .semi-achiev{
+	font-weight: bold;
+	font:20px;
+
+}
+
+.resume .resume_right .resume-achiev p:after{
+	border: solid black;
+   border-width: 0 3px 3px 0;
+   display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_achiev ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
+}
+
+ 
